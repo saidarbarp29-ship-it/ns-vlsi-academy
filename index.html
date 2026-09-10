@@ -1,1 +1,809 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+        content="NS – RTL & VLSI Academy. From fundamentals to industry-ready semiconductor skills.">
+
+  <meta name="theme-color" content="#071014">
+
+  <title>NS – RTL & VLSI Academy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="grid-background"></div>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <a href="#home" class="brand">
+      <div class="brand-logo">NS</div>
+
+      <div class="brand-text">
+        <strong>NS</strong>
+        <span>RTL & VLSI ACADEMY</span>
+      </div>
+    </a>
+
+    <button class="menu-button" id="menuButton">
+      ☰
+    </button>
+
+    <nav class="navigation" id="navigation">
+      <a href="#home">Home</a>
+      <a href="#courses">Courses</a>
+      <a href="#about">About</a>
+      <a href="#learning-path">Learning Path</a>
+      <a href="#contact">Contact</a>
+
+      <a href="#enquiry" class="nav-button">
+        Enquire Now
+      </a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          SEMICONDUCTOR • RTL • VLSI
+        </div>
+
+        <h1>
+          From
+          <em>fundamentals</em>
+          to
+          <span>silicon-ready</span>
+          skills.
+        </h1>
+
+        <p class="hero-description">
+          Build a strong digital foundation, master RTL design and verification,
+          and develop practical VLSI skills through structured,
+          project-driven learning.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a href="#courses" class="button primary">
+            Explore Courses
+            <span>→</span>
+          </a>
+
+          <a href="#enquiry" class="button secondary">
+            Talk to NS
+            <span>↗</span>
+          </a>
+
+        </div>
+
+        <div class="hero-highlights">
+
+          <div>
+            <strong>01</strong>
+            <span>Concept Clarity</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Hands-on RTL</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span>Interview Focus</span>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- TECH VISUAL -->
+      <div class="chip-area">
+
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="chip">
+
+          <div class="chip-header">
+            NS
+            <span>/ RTL CORE</span>
+          </div>
+
+          <div class="chip-grid">
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+            <div></div>
+            <div></div>
+            <div></div>
+
+          </div>
+
+          <div class="waveform">
+
+            <svg viewBox="0 0 400 100"
+                 preserveAspectRatio="none">
+
+              <polyline
+                points="
+                0,70
+                40,70
+                40,25
+                90,25
+                90,70
+                130,70
+                130,45
+                170,45
+                170,75
+                220,75
+                220,20
+                270,20
+                270,70
+                320,70
+                320,35
+                400,35">
+              </polyline>
+
+            </svg>
+
+          </div>
+
+          <div class="chip-labels">
+            <span>CLK</span>
+            <span>DATA</span>
+            <span>RTL</span>
+            <span>VERIFY</span>
+          </div>
+
+        </div>
+
+        <div class="floating-node node-one">VERILOG</div>
+        <div class="floating-node node-two">RTL</div>
+        <div class="floating-node node-three">SYSTEMVERILOG</div>
+
+      </div>
+
+    </section>
+
+
+    <!-- MARQUEE -->
+    <div class="technology-bar">
+
+      <span>RTL DESIGN</span>
+      <i>✦</i>
+
+      <span>VERILOG</span>
+      <i>✦</i>
+
+      <span>SYSTEMVERILOG</span>
+      <i>✦</i>
+
+      <span>FUNCTIONAL VERIFICATION</span>
+      <i>✦</i>
+
+      <span>VLSI PROJECTS</span>
+
+    </div>
+
+
+    <!-- COURSES -->
+    <section class="section" id="courses">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="kicker">WHAT YOU CAN LEARN</span>
+
+          <h2>
+            Courses built around
+            <span>real engineering skills.</span>
+          </h2>
+        </div>
+
+        <p>
+          Structured learning paths designed to connect
+          concepts with practical semiconductor design,
+          verification and career preparation.
+        </p>
+
+      </div>
+
+
+      <div class="course-grid">
+
+        <article class="course-card featured">
+
+          <span class="course-number">01</span>
+
+          <div class="course-icon">⌁</div>
+
+          <h3>RTL Design</h3>
+
+          <p>
+            Learn synthesizable RTL design, datapaths,
+            control logic and digital system development.
+          </p>
+
+          <div class="tags">
+            <span>RTL</span>
+            <span>HDL</span>
+            <span>Design</span>
+          </div>
+
+        </article>
+
+
+        <article class="course-card">
+
+          <span class="course-number">02</span>
+
+          <div class="course-icon">◇</div>
+
+          <h3>Verilog</h3>
+
+          <p>
+            Build confidence with Verilog fundamentals,
+            coding constructs, simulation and design exercises.
+          </p>
+
+          <div class="tags">
+            <span>Verilog</span>
+            <span>Simulation</span>
+          </div>
+
+        </article>
+
+
+        <article class="course-card">
+
+          <span class="course-number">03</span>
+
+          <div class="course-icon">Σ</div>
+
+          <h3>SystemVerilog</h3>
+
+          <p>
+            Move from RTL fundamentals toward modern
+            verification-oriented SystemVerilog concepts.
+          </p>
+
+          <div class="tags">
+            <span>SV</span>
+            <span>Verification</span>
+          </div>
+
+        </article>
+
+
+        <article class="course-card">
+
+          <span class="course-number">04</span>
+
+          <div class="course-icon">▦</div>
+
+          <h3>VLSI Foundations</h3>
+
+          <p>
+            Strengthen digital electronics, semiconductor
+            and VLSI fundamentals before advanced topics.
+          </p>
+
+          <div class="tags">
+            <span>Digital</span>
+            <span>VLSI</span>
+          </div>
+
+        </article>
+
+
+        <article class="course-card">
+
+          <span class="course-number">05</span>
+
+          <div class="course-icon">⌘</div>
+
+          <h3>VLSI Projects</h3>
+
+          <p>
+            Practice structured projects connecting specifications,
+            RTL, simulation, debugging and documentation.
+          </p>
+
+          <div class="tags">
+            <span>Hands-on</span>
+            <span>Projects</span>
+          </div>
+
+        </article>
+
+
+        <article class="course-card">
+
+          <span class="course-number">06</span>
+
+          <div class="course-icon">↗</div>
+
+          <h3>Interview Preparation</h3>
+
+          <p>
+            Prepare for technical discussions through concept
+            revision, problem solving and interview practice.
+          </p>
+
+          <div class="tags">
+            <span>Interview</span>
+            <span>Career</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- LEARNING PATH -->
+    <section class="learning-section" id="learning-path">
+
+      <div class="section-heading">
+
+        <div>
+          <span class="kicker">THE NS METHOD</span>
+
+          <h2>
+            The
+            <span>NS Learning Path.</span>
+          </h2>
+        </div>
+
+        <p>
+          A structured progression instead of random
+          topic-by-topic training.
+        </p>
+
+      </div>
+
+
+      <div class="learning-path">
+
+        <div class="path-step">
+          <strong>01</strong>
+          <span>FOUNDATIONS</span>
+          <small>Digital & semiconductor basics</small>
+        </div>
+
+        <div class="path-line"></div>
+
+        <div class="path-step">
+          <strong>02</strong>
+          <span>HDL</span>
+          <small>Verilog & SystemVerilog</small>
+        </div>
+
+        <div class="path-line"></div>
+
+        <div class="path-step">
+          <strong>03</strong>
+          <span>RTL</span>
+          <small>Design thinking & coding</small>
+        </div>
+
+        <div class="path-line"></div>
+
+        <div class="path-step">
+          <strong>04</strong>
+          <span>VERIFY</span>
+          <small>Simulation & debugging</small>
+        </div>
+
+        <div class="path-line"></div>
+
+        <div class="path-step">
+          <strong>05</strong>
+          <span>PROJECT</span>
+          <small>Build & explain</small>
+        </div>
+
+        <div class="path-line"></div>
+
+        <div class="path-step">
+          <strong>06</strong>
+          <span>CAREER</span>
+          <small>Interview readiness</small>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+
+      <div class="terminal">
+
+        <div class="terminal-top">
+
+          <div class="terminal-dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <label>ns_learning_core</label>
+
+        </div>
+
+        <div class="terminal-content">
+
+          <p><b>$</b> initialize_ns_academy()</p>
+
+          <p class="muted">
+            Loading fundamentals...
+          </p>
+
+          <p class="success">
+            ✓ RTL mindset
+          </p>
+
+          <p class="success">
+            ✓ Practical coding
+          </p>
+
+          <p class="success">
+            ✓ Verification thinking
+          </p>
+
+          <p class="success">
+            ✓ Project confidence
+          </p>
+
+          <p>
+            <b>$</b> ready_to_build()
+          </p>
+
+          <span class="cursor"></span>
+
+        </div>
+
+      </div>
+
+
+      <div class="about-content">
+
+        <span class="kicker">ABOUT NS</span>
+
+        <h2>
+          Learn the
+          <span>thinking</span>
+          behind the code.
+        </h2>
+
+        <p>
+          NS – RTL & VLSI Academy is built around one simple
+          idea: strong engineers are developed by understanding
+          fundamentals, practicing consistently and learning
+          how to explain what they build.
+        </p>
+
+        <p>
+          Our training approach connects concepts with RTL
+          coding, simulation, debugging, projects and interview
+          preparation—so learning feels like an engineering
+          workflow rather than a collection of notes.
+        </p>
+
+
+        <div class="mini-stats">
+
+          <div>
+            <strong>01</strong>
+            <span>Concept-first</span>
+          </div>
+
+          <div>
+            <strong>02</strong>
+            <span>Practice-driven</span>
+          </div>
+
+          <div>
+            <strong>03</strong>
+            <span>Career-focused</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CTA -->
+    <section class="cta">
+
+      <div>
+
+        <span class="kicker">
+          READY TO START?
+        </span>
+
+        <h2>
+          Your VLSI journey
+          starts with one
+          <span>conversation.</span>
+        </h2>
+
+      </div>
+
+      <a href="#enquiry" class="button primary large">
+        Send an Enquiry
+        <span>→</span>
+      </a>
+
+    </section>
+
+
+    <!-- ENQUIRY -->
+    <section class="section enquiry" id="enquiry">
+
+      <div class="section-heading">
+
+        <div>
+
+          <span class="kicker">
+            ENQUIRY
+          </span>
+
+          <h2>
+            Tell us what you
+            <span>want to learn.</span>
+          </h2>
+
+        </div>
+
+        <p>
+          Share your details and we'll help you identify
+          the right learning path.
+        </p>
+
+      </div>
+
+
+      <form id="enquiryForm" class="enquiry-form">
+
+        <div class="form-field">
+          <label>Full Name *</label>
+          <input
+            type="text"
+            name="name"
+            placeholder="Your name"
+            required>
+        </div>
+
+
+        <div class="form-field">
+          <label>Phone / WhatsApp *</label>
+          <input
+            type="tel"
+            name="phone"
+            placeholder="+91 XXXXX XXXXX"
+            required>
+        </div>
+
+
+        <div class="form-field">
+
+          <label>Email</label>
+
+          <input
+            type="email"
+            name="email"
+            placeholder="you@example.com">
+
+        </div>
+
+
+        <div class="form-field">
+
+          <label>Qualification</label>
+
+          <input
+            type="text"
+            name="qualification"
+            placeholder="B.Tech / M.Tech / ECE / EEE / etc.">
+
+        </div>
+
+
+        <div class="form-field full">
+
+          <label>Course Interested In</label>
+
+          <select name="course">
+
+            <option>RTL Design</option>
+            <option>Verilog</option>
+            <option>SystemVerilog</option>
+            <option>VLSI Foundations</option>
+            <option>VLSI Projects</option>
+            <option>Interview Preparation</option>
+            <option>Not sure — help me choose</option>
+
+          </select>
+
+        </div>
+
+
+        <div class="form-field full">
+
+          <label>Message</label>
+
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Tell us what you're looking for..."></textarea>
+
+        </div>
+
+
+        <button type="submit" class="button primary submit-button">
+
+          Submit Enquiry
+          <span>→</span>
+
+        </button>
+
+        <p class="form-note">
+          Your enquiry will open WhatsApp with the details
+          you entered.
+        </p>
+
+      </form>
+
+    </section>
+
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+
+      <div>
+
+        <span class="kicker">
+          CONTACT NS
+        </span>
+
+        <h2>
+          Let's build your
+          <span>next skill.</span>
+        </h2>
+
+      </div>
+
+
+      <div class="contact-grid">
+
+        <a
+          href="#enquiry"
+          class="contact-card">
+
+          <small>WHATSAPP</small>
+
+          <strong>
+            Chat with NS ↗
+          </strong>
+
+          <span>
+            Fast course enquiries
+          </span>
+
+        </a>
+
+
+        <a
+          href="mailto:YOUR_EMAIL@example.com"
+          class="contact-card">
+
+          <small>EMAIL</small>
+
+          <strong>
+            YOUR_EMAIL@example.com
+          </strong>
+
+          <span>
+            Course & academy enquiries
+          </span>
+
+        </a>
+
+
+        <div class="contact-card">
+
+          <small>LOCATION</small>
+
+          <strong>
+            India
+          </strong>
+
+          <span>
+            Online / location to be updated
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer>
+
+    <a href="#home" class="brand">
+
+      <div class="brand-logo">
+        NS
+      </div>
+
+      <div class="brand-text">
+
+        <strong>NS</strong>
+
+        <span>
+          RTL & VLSI ACADEMY
+        </span>
+
+      </div>
+
+    </a>
+
+
+    <p>
+      © 2026 NS – RTL & VLSI Academy.
+      All rights reserved.
+    </p>
+
+
+    <a href="#home">
+      Back to top ↑
+    </a>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
+```
 
